@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_package version="1.0">
+<ligero_package version="1.0">
     <Name>ITSM</Name>
-<!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
+<!-- nofilter(TidyAll::Plugin::LIGERO::SOPM::DocumentationPresent) -->
     <Version>0.0.0</Version>
     <Framework Minimum="6.0.15">6.0.x</Framework>
-    <Vendor>OTRS AG</Vendor>
-    <URL>https://otrs.com/</URL>
+    <Vendor>LIGERO AG</Vendor>
+    <URL>https://ligero.com/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
-    <Description Lang="en">The OTRS::ITSM bundle package.</Description>
-    <Description Lang="de">Das OTRS::ITSM Bundle Paket.</Description>
-    <Description Lang="hu">Az összes OTRS::ITSM csomag egyben.</Description>
+    <Description Lang="en">The LIGERO::ITSM bundle package.</Description>
+    <Description Lang="de">Das LIGERO::ITSM Bundle Paket.</Description>
+    <Description Lang="hu">Az összes LIGERO::ITSM csomag egyben.</Description>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/FrameworkITSM.xml" />
         <File Permission="660" Location="var/packagesetup/ITSM/GeneralCatalog.opm" />
@@ -57,12 +57,12 @@
         <b>WELCOME</b>
         <br>
         <br>
-        You are about to install the OTRS package ITSM.
-        This package will install OTRS::ITSM 6.0.15 on your system.
+        You are about to install the LIGERO package ITSM.
+        This package will install LIGERO::ITSM 6.0.15 on your system.
         <br>
         <br>
-        If you already installed some OTRS::ITSM packages on your system, please make sure first
-        that the OTRS::ITSM packages are at least of version 1.3.1 or higher!
+        If you already installed some LIGERO::ITSM packages on your system, please make sure first
+        that the LIGERO::ITSM packages are at least of version 1.3.1 or higher!
         <br>
         <br>
         After a successful installation, the following packages will be installed and shown by the package manager:
@@ -127,12 +127,12 @@
         <b>WILLKOMMEN</b>
         <br>
         <br>
-        Sie sind im Begriff das OTRS-Paket ITSM zu installieren.
-        Dieses Paket installiert OTRS::ITSM 6.0.15 auf Ihrem System.
+        Sie sind im Begriff das LIGERO-Paket ITSM zu installieren.
+        Dieses Paket installiert LIGERO::ITSM 6.0.15 auf Ihrem System.
         <br>
         <br>
-        Wenn auf Ihrem System bereits OTRS::ITSM-Pakete installiert
-        sein sollten, dann stellen Sie zunächst sicher, dass die OTRS::ITSM-Pakete mindestens der Version 1.3.1
+        Wenn auf Ihrem System bereits LIGERO::ITSM-Pakete installiert
+        sein sollten, dann stellen Sie zunächst sicher, dass die LIGERO::ITSM-Pakete mindestens der Version 1.3.1
         entsprechen!
         <br>
         <br>
@@ -200,12 +200,12 @@
         <b>ÜDVÖZÖLJÜK</b>
         <br>
         <br>
-        Ön az OTRS::ITSM csomag telepítésére készül.
-        Ez a csomag az OTRS::ITSM 6.0.15 verzióját fogja telepíteni a rendszerre.
+        Ön az LIGERO::ITSM csomag telepítésére készül.
+        Ez a csomag az LIGERO::ITSM 6.0.15 verzióját fogja telepíteni a rendszerre.
         <br>
         <br>
-        Ha már telepítette valamelyik OTRS::ITSM csomagot a rendszerre, akkor először győződjön
-        meg arról, hogy az OTRS::ITSM csomagok legalább 1.3.1 verziójúak vagy újabbak!
+        Ha már telepítette valamelyik LIGERO::ITSM csomagot a rendszerre, akkor először győződjön
+        meg arról, hogy az LIGERO::ITSM csomagok legalább 1.3.1 verziójúak vagy újabbak!
         <br>
         <br>
         Egy sikeres telepítés után a következő csomagokat fogja telepíteni és megjeleníteni a
@@ -277,8 +277,8 @@
         <b>WELCOME</b>
         <br>
         <br>
-        You are about to upgrade the OTRS package ITSM.<br>
-        This package will upgrade your system to OTRS::ITSM 6.0.15.
+        You are about to upgrade the LIGERO package ITSM.<br>
+        This package will upgrade your system to LIGERO::ITSM 6.0.15.
         <br>
         <br>
         After a successful upgrade, the following packages will be installed and shown by the package manager:
@@ -314,8 +314,8 @@
         <b>WILLKOMMEN</b>
         <br>
         <br>
-        Sie sind im Begriff das OTRS-Paket ITSM zu aktualisieren.
-        Dieses Paket aktualisiert Ihr System auf OTRS::ITSM 6.0.15.
+        Sie sind im Begriff das LIGERO-Paket ITSM zu aktualisieren.
+        Dieses Paket aktualisiert Ihr System auf LIGERO::ITSM 6.0.15.
         <br>
         <br>
         Nach erfolgreicher Aktualisierung sind folgende Pakete installiert und werden entsprechend im Paketmanager angezeigt:
@@ -351,8 +351,8 @@
         <b>ÜDVÖZÖLJÜK</b>
         <br>
         <br>
-        Ön az OTRS::ITSM csomag frissítésére készül.
-        Ez a csomag frissíteni fogja a rendszerét az OTRS::ITSM 6.0.15 verziójára.
+        Ön az LIGERO::ITSM csomag frissítésére készül.
+        Ez a csomag frissíteni fogja a rendszerét az LIGERO::ITSM 6.0.15 verziójára.
         <br>
         <br>
         Egy sikeres frissítés után a következő csomagokat fogja telepíteni és megjeleníteni a
@@ -496,4 +496,4 @@
         <br>
 
     ]]></IntroUninstall>
-</otrs_package>
+</ligero_package>
